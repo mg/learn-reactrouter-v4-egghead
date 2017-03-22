@@ -1,12 +1,12 @@
 # Use URL Parameters with React Router v4
 [Video](https://egghead.io/lessons/react-use-url-parameters-with-react-router-v4)
 
-```js
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-
 - ``:`` identifies an url parameter.
 
 - ``?`` appended to an url parameter marks it as optional.
+
+```js
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 const App = () => (
   <Router>
